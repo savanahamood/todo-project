@@ -1,5 +1,5 @@
 # todo-project
-![page1](./page1.jpeg)
+![page1](/images/page1.jpeg)
 
-![page2](./page%202.jpeg)
+![page2](/images/page%202.jpeg)
 

@@ -4,40 +4,51 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
     <title>Home Page</title>
-    <img src="images/logo.webp" alt="logo"  class="logo"  width="70" height="50"> 
-   
-</head>
-<body>
-   <header>
-    <nav class="topnav">
-        <a class="active" href="index.html">Home</a>
-        
-        <a href="about.html">About</a>
-    </nav>
+    
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
+  </head>
+  <body>
+    
+    <header>
+      <img src="images/logo.webp" alt="logo"  class="logo"  width="70" height="50">
+
+      <nav class="navg">
+      
+           <a id="home" href="index.html">Home</a>  
+    <a id="about" href="about.html">About Us</a> 
+  
+  </nav>
    </header>
 <h4>Todo List</h4>
-   <table>
+   <table class="content-table">
+
+  <thead>
     <tr>
       <th>Task</th>
       <th>Status</th>
       
     </tr>
+  </thead>
+  <tbody>
     <tr>
       <td>read a book</td>
-      <td>done</td>
+      <td class="done">done</td>
       
     </tr>
     <tr>
       <td>watch a movie</td>
-      <td>done</td>
+      <td class="done">done</td>
       
     </tr>
     <tr>
         <td>visit dad</td>
-        <td>not done</td>
+        <td class="notdone">not done</td>
         
       </tr>
+  </tbody>
   </table>
 
   <footer>
